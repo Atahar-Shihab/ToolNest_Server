@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![ToolNest API Banner](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&auto=format&fit=crop&q=80)
-
 ### High-Performance Backend API for ToolNest Platform
 
 [![Live API](https://img.shields.io/badge/⚡_Live_API-toolnest--server.onrender.com-46E3B7?style=for-the-badge&logo=render)](https://toolnest-server.onrender.com/api)
@@ -15,14 +13,12 @@
 
 ---
 
-### 👨‍💻 Developer & Contact
+### 👨‍💻 Connect with Developer (Atahar Shihab)
 
-**Atahar Shihab** — Lead Full Stack Software Engineer
-
-[![Email](https://img.shields.io/badge/Email-shihabatahar%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shihabatahar@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Atahar--Shihab-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Atahar-Shihab)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-atahar--shihab-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atahar-shihab)
-[![Facebook](https://img.shields.io/badge/Facebook-atahar.shihab.740192-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/atahar.shihab.740192/)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shihabatahar@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Atahar-Shihab)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atahar-shihab)
+[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/atahar.shihab.740192/)
 
 </div>
 
@@ -130,44 +126,35 @@
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Environment Variables Template (.env.example)
 
-### 1. Installation
-```bash
-git clone https://github.com/Atahar-Shihab/ToolNest_Server.git
-cd ToolNest_Server
-npm install
-```
-
-### 2. Environment Setup
 Create a `.env` file in the root directory:
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://shihabatahar_db_user:nX22h3NJ9af9LhzP@cluster0.uuj8fe0.mongodb.net/toolnest
-JWT_SECRET=toolnest_super_secret_jwt_key_2026_scic
-GOOGLE_CLIENT_ID=366416750226-s9qi37tog7erpo5n1701bqhj3d1dvp6i.apps.googleusercontent.com
-STRIPE_SECRET_KEY=sk_test_51TjahMGkjNUWiLm4bjkg2G8v3USsU36cgKDdRpteY7ymp1pRHLNVtPYrwdf1DFAHM5wJC02rNEBS7H1TCCfnETwV00zYq7g4GO
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/toolnest
+JWT_SECRET=your_jwt_secret_key_here
+STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
+GOOGLE_CLIENT_ID=your_google_client_id_here.apps.googleusercontent.com
 CLIENT_URL=https://tool-nest-client.vercel.app
-```
-
-### 3. Seed Database
-```bash
-npm run seed
-```
-
-### 4. Run Development Server
-```bash
-npm run dev
 ```
 
 ---
 
-## 📬 Developer Contact
+## 🔑 Demo Credentials
+
+| Role | Email | Password | Access Rights |
+| :--- | :--- | :--- | :--- |
+| **Standard User** | `user@toolnest.com` | `User123!` | Submit tools, write reviews, bookmark tools, upgrade to Pro |
+| **Admin User** | `admin@toolnest.com` | `Admin123!` | Full access + approve/reject tools, manage users, delete reviews, analytics |
+
+---
+
+## 📬 Contact & Support
 
 Developed with ❤️ by **Atahar Shihab**:
-- 📧 Email: [shihabatahar@gmail.com](mailto:shihabatahar@gmail.com)
-- 🐙 GitHub: [https://github.com/Atahar-Shihab](https://github.com/Atahar-Shihab)
-- 💼 LinkedIn: [https://www.linkedin.com/in/atahar-shihab](https://www.linkedin.com/in/atahar-shihab)
-- 📘 Facebook: [https://www.facebook.com/atahar.shihab.740192/](https://www.facebook.com/atahar.shihab.740192/)
+- 📧 Email: [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:shihabatahar@gmail.com)
+- 🐙 GitHub: [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Atahar-Shihab)
+- 💼 LinkedIn: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atahar-shihab)
+- 📘 Facebook: [![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/atahar.shihab.740192/)
 
 License: [MIT](LICENSE)
