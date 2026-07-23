@@ -22,6 +22,11 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
+// Health Check Route
+app.get('/api/health', (req: Request, res: Response) => {
+  res.status(200).json({ status: 'ok', uptime: process.uptime(), timestamp: new Date().toISOString() });
+});
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/tools', toolRoutes);
