@@ -34,6 +34,11 @@
 
 ## 📡 API Endpoints
 
+### 🏥 System Health
+| Method | Endpoint | Description | Access |
+| :--- | :--- | :--- | :--- |
+| `GET` | `/api/health` | Check server status, uptime, and timestamp | Public |
+
 ### 🔐 Authentication
 | Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
