@@ -22,6 +22,17 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
+// Welcome / Root API Index Route
+app.get('/', (req: Request, res: Response) => {
+  res.status(200).json({
+    message: '🚀 Welcome to ToolNest API Server',
+    status: 'online',
+    healthCheck: '/api/health',
+    tools: '/api/tools',
+    documentation: 'https://github.com/Atahar-Shihab/ToolNest_Server'
+  });
+});
+
 // Health Check Route
 app.get('/api/health', (req: Request, res: Response) => {
   res.status(200).json({ status: 'ok', uptime: process.uptime(), timestamp: new Date().toISOString() });
