@@ -1,4 +1,4 @@
-# ⚡ ToolNest Server — Express, TypeScript & MongoDB REST API
+# <img src="./public/icon.svg" width="34" height="34" align="center" alt="ToolNest Logo" /> ToolNest Server — Express, TypeScript & MongoDB REST API
 
 <div align="center">
 
